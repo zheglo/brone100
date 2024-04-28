@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import Hero from 'routes/hero/+page.svelte'
+  import Jubilee from 'routes/jubilee/+page.svelte'
+  import Program from 'routes/program/+page.svelte'
+  import { animate, scroll } from 'motion'
+
+//   scroll(animate(".progress", { scaleX: [0, 1] }));
+
+//   document.querySelectorAll("section").forEach((section) => {
+//   const header = section.querySelector("h2");
+//   scroll(animate(header, { y: [-400, 400] }), {
+//     target: header
+//   });
+// });
+
+</script>
+
+<Hero />
+<Jubilee />
+<Program />
+
+
