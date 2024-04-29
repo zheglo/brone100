@@ -2,7 +2,6 @@
   import { animate, timeline, spring } from "motion";
   import { onMount } from "svelte";
 
-
   onMount(() => {
 
     const numb = document.querySelector("numb")
@@ -35,8 +34,8 @@
 
 
 <wrapper100 class='h-[80%] w-100% flex items-center justify-between'>
-  <wrapperL class="block h-50% w-45% flex justify-end items-center">
-    <span class="font-local font-size-4vw px-2 color-[#ff0000]">1924</span>
+  <wrapperL class="block h-25% w-45% flex justify-end items-center">
+    <span class="font-local font-size-4vw px-2 color-[#ff0000] overflow-hidden justify-start " id='1924'>1924</span>
     <img class='w-10%' src="assets/hero/arrowL.svg" alt="arrow left" >
   </wrapperL>
 
@@ -46,6 +45,6 @@
 
   <wrapperR class="block h-25% w-45% flex justify-start items-center">
     <img class='w-10%' src="assets/hero/arrowR.svg" alt="arrow right">
-    <span class="font-local font-size-4vw px-2 color-[#ff0000]">2004 </span>
+    <span class="font-local font-size-4vw px-2 color-[#ff0000] overflow-hidden justify-end" id='2004'>2004 </span>
   </wrapperR>
 </wrapper100>

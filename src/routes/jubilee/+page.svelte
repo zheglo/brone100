@@ -1,34 +1,39 @@
-<script>
-  import {onMount} from 'svelte'
-  import { animate, timeline } from "motion"
-
-  let fly
+<script lang='ts'>
+  import { animate, inView } from "motion"
+  import {onMount} from "svelte"
 
   onMount(() => {
 
-    const broneFly = [
-      ['fly', { x: ['-100', '200%'] }, { duration: 3 }],
-    ]
-    // @ts-ignore
-    timeline(broneFly)
+  inView("section", ({ target }) => {
+    animate(
+      target.querySelector("#flight"),
+      { x: [ '300%', '-100%'] }, { duration: 5, repeat: Infinity }
+    );
+  });
 
   })
 
 </script>
 
 <section
-  class="relative h-[100dvh] w-[100dvw] shrink-0 flex justify-center">
-  <img
-    class="absolute h-full w-full object-cover"
-    src='assets/jubilee/greenTheater.webp' alt="openayr theater"/>
+  class="relative h-[100dvh] w-[100dvw] flex">
+
+  <div
+    class="h-[100dvh] w-[100dvw] bg-cover bg-center" style="background-image: url('assets/jubilee/greenTheater.webp')">
+  </div>
 
   <div class='absolute h-6% bottom-0 flex justify-center'>
     <img class='w-99%' src="assets/jubilee/vprogramme.svg" alt="v programme">
   </div>
 
-  <div class='absolute top:0 w-full h-[30%]'>
-    <img bind:this={fly} class="object-contain w-[45%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady fly" />
+  <div class='absolute top:0' id='flight'>
+    <img
+    class="object-contain w-[55%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady flys"/>
   </div>
 
+  <div class='absolute top:0' id='light'>
+    <img
+    class="object-contain w-[55%] overflow-hidden" src='assets/jubilee/jokeYellow.webp' alt="old lady flys"/>
+  </div>
 
 </section>
