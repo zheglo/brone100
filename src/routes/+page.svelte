@@ -4,19 +4,23 @@
   import Program from 'routes/program/+page.svelte'
   import { animate, scroll } from 'motion'
 
-//   scroll(animate(".progress", { scaleX: [0, 1] }));
 
-//   document.querySelectorAll("section").forEach((section) => {
-//   const header = section.querySelector("h2");
-//   scroll(animate(header, { y: [-400, 400] }), {
-//     target: header
-//   });
-// });
 
 </script>
 
-<Hero />
-<Jubilee />
-<Program />
+<section>
+  <Hero />
+  <h2 class='absolute font-sans font-size-6vw font-bold text-black inline-block z-10'>#001</h2>
+</section>
+
+<section>
+  <Jubilee />
+  <h2 class='absolute font-sans font-size-6vw font-bold text-black inline-block z-10'>#002</h2>
+</section>
+
+<section>
+  <Program />
+  <h2 class='absolute font-sans font-size-6vw font-bold text-black inline-block z-10'>#003</h2>
+</section>
 
 

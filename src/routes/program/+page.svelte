@@ -9,7 +9,7 @@ onMount(() => {
 inView("section", ({ target }) => {
   animate(
     target.querySelector("#fly")!,
-    { x: [ '-100%', '300%'] }, { duration: 5, repeat: Infinity }
+    { x: [ '-100%', '260%'] }, { duration: 5, repeat: Infinity }
   );
 });
 
