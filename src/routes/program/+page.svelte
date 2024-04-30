@@ -2,11 +2,13 @@
   import { animate, inView } from "motion"
   import { onMount } from "svelte"
 
+
+
 onMount(() => {
 
 inView("section", ({ target }) => {
   animate(
-    target.querySelector("#fly"),
+    target.querySelector("#fly")!,
     { x: [ '-100%', '300%'] }, { duration: 5, repeat: Infinity }
   );
 });
@@ -17,7 +19,7 @@ inView("section", ({ target }) => {
 </script>
 
 <section
-  class="relative bg-#e9a613 inset-0 -mt-5% flex -z-1">
+  class="relative h-[100dvh] w-[100dvw] -mt-5% flex -z-1">
 
   <div
     class="h-[100dvh] w-[100dvw] bg-cover bg-center" style="background-image: url('assets/program/greenTheaterYellow.png')">
