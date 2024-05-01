@@ -6,6 +6,7 @@
   import B from 'components/animateO/B.svelte'
   import N from 'components/animateO/N.svelte'
   import Ia from 'components/animateO/Ia.svelte'
+
 </script>
 
 <section
@@ -40,3 +41,4 @@
   <Sto />
 
 </section>
+

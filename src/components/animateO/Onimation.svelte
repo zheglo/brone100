@@ -85,6 +85,5 @@
       stroke-miterlimit="10"
       >
     </path>
-
   </svg>
 </div>

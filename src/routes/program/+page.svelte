@@ -28,7 +28,7 @@ inView("section", ({ target }) => {
   <div class="absolute mt-40" id='fly'>
 
     <img
-    class="object-contain w-[55%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady flys"/>
+    class="object-contain w-[55%] overflow-hidden" src='assets/jubilee/joke.png' alt="old lady flys"/>
 
   </div>
 

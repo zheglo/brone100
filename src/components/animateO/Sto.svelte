@@ -22,7 +22,8 @@
       ['wrapperR', { opacity: [0, 1] }],
       ['wrapperL', { x: [ '0', '-100%', '-20%'] }, { duration: 0.7 }, { delay: 1 }],
       ['wrapperR', { x: [ '0', '100%', '20%'] }, { duration: 0.5 }],
-      ['span', { opacity: [0, 1] }, { delay: 0.2 }]
+      ['span', { opacity: [0, 1] }, { delay: 0.2 }],
+      ['wrapperB', { opacity: [0, 1] }]
 
     ]
 
@@ -48,3 +49,7 @@
     <span class="font-local font-size-4vw px-2 color-[#ff0000] overflow-hidden justify-end" id='2004'>2004 </span>
   </wrapperR>
 </wrapper100>
+
+<wrapperB class='absolute h-10% w-45% flex justify-center animate-bounce-alt bottom-0'>
+  <img class='w-10% m-auto' src="assets/hero/arrowB.svg" alt="weiter">
+</wrapperB>

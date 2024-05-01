@@ -7,11 +7,11 @@
   inView("section", ({ target }) => {
     animate(
       target.querySelector("#flight")!,
-      { x: ['-100%', '230%'] }, { duration: 5, repeat: Infinity }
+      { x: ['-100%', '230%'] }, { duration: 4, repeat: Infinity }
       );
     animate(
       target.querySelector("#light")!,
-      { x: ['230%', '-175%'] }, { duration: 4, delay: 2.5, repeat: Infinity }
+      { x: ['230%', '-180%'] }, { duration: 5, delay: 2.5, repeat: Infinity }
       );
     })
   })
@@ -25,14 +25,14 @@
     class="h-[100dvh] w-[100dvw] bg-cover bg-center" style="background-image: url('assets/jubilee/greenTheater.webp')">
   </div>
 
-  <div class='absolute top-10 z-10' id='flight'>
-    <img
-    class="object-contain w-[90%] overflow-hidden" src='assets/jubilee/joke.webp' alt="old lady flys"/>
-  </div>
-
   <div class="absolute mt-20 ml-4% mr-4% flex justify-center animate-bounce-alt z-1">
     <img class="h-80cqh w-90vw" src="assets/jubilee/5.svg" alt="data">
  </div>
+
+ <div class='absolute top-10 z-3' id='flight'>
+  <img
+  class="object-contain w-[90%] overflow-hidden" src='assets/jubilee/joke.png' alt="old lady flys"/>
+</div>
 
   <div class="absolute h-[100dvh] w-[100dvw] flex justify-between z-1">
 
