@@ -9,7 +9,7 @@
 </script>
 
 <section
-  class="relative h-[100dvh] w-[100dvw] shrink-0 flex items-center justify-center"
+  class="relative h-[100dvh] w-[100dvw] flex items-center justify-center"
 >
   <White />
 
