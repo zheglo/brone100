@@ -3,11 +3,13 @@
 </script>
 
 <section
-  class="relative h-[100dvh] w-[100dvw] flex items-center justify-center bg-#daa520"
+  class="relative h-[100dvh] w-[100dvw] grid-cols-5 gap-6"
 >
 
 <div
-class="h-[100dvh] w-[100dvw] bg-cover bg-center" style="background-image: url('assets/program/greenTheaterYellow2.png')">
+class="relative h-[100dvh] w-[100dvw] bg-cover bg-center" style="background-image: url('assets/program/greenTheaterYellow2.png')">
 </div>
+
+
 
 </section>

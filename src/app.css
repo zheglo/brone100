@@ -28,6 +28,13 @@ body {
     src: local('Magical Childhood Regular'), url(fonts/MagicalChildhood-Rprjl.woff) format('woff')
 }
 
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+
+}
+
 a {
   text-decoration: none;
 }

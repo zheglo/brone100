@@ -5,6 +5,5 @@
 </script>
 
 <main>
-    <!-- <Content /> -->
     <slot />
 </main>
