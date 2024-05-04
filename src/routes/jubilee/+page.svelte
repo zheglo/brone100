@@ -21,12 +21,11 @@
 <section class="relative h-[100dvh] w-[100dvw] flex justify-center items-center">
 	<div
 		class="h-[100dvh] w-[100dvw] bg-cover bg-center"
-		style="background-image: url('assets/jubilee/greenTheater.webp')">
-  </div>
+		style="background-image: url('assets/jubilee/greenTheater.webp')"
+	></div>
 
 	<div class="absolute mt-20 ml-4% mr-4% flex justify-center animate-bounce-alt z-1">
-		<img class="h-80cqh w-90vw" src="assets/jubilee/5.svg" alt="data"
-    />
+		<img class="h-80cqh w-90vw" src="assets/jubilee/5.svg" alt="data" />
 	</div>
 
 	<div class="absolute w-100cqw top-10 z-3" id="flight">
@@ -45,7 +44,7 @@
 			им. парка Горького
 		</h1>
 
-		<div class="w-30px grow"></div>
+		<div class="w-30px shrink"></div>
 
 		<h2
 			class="font-sans font-size-4cqw font-bold text-#ff0088 pr-5% pl-5% pb-5% w-40% leading-85% self-center z-2"
@@ -70,6 +69,6 @@
 	</div>
 
 	<div class="absolute h-6% bottom-0 flex justify-center">
-		<img class="w-99% pr-15% self-end" src="assets/jubilee/vprogramme.svg" alt="v programme" />
+		<img class="w-80% pr-15% self-end" src="assets/jubilee/vprogramme.svg" alt="v programme" />
 	</div>
 </section>

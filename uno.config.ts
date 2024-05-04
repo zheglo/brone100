@@ -24,11 +24,13 @@ export default defineConfig({
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
+        'xxl': '1520'
       }
   },
 
   rules: [
     ['xl', { 'max-width': '1280px' }],
+    ['xxl', { 'min-width': '1520 '}]
   ],
 
 });
