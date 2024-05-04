@@ -16,14 +16,14 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  src: sans("Montserrat");
+  src: sans("Montserrat"), url(static/fonts/Montserrat.woff2);
 }
 @font-face  {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    src: serif("Playfair Display")
+    src: serif("Playfair Display"), url(static/fonts/Playfair_Display.woff2);
 }
 @font-face {
   font-family: 'Magical Childhood Regular';
