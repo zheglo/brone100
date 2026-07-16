@@ -18,6 +18,7 @@ export default defineConfig({
         '~routes': './src/routes',
         '~db': './src/server/db',
         '~lib': './src/lib',
+				'~assets': './src/lib/assets'
       },
 			typescript: {
 				config: (config) => {

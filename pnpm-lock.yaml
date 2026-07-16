@@ -35,6 +35,9 @@ importers:
       '@unocss/preset-wind3':
         specifier: ^66.7.5
         version: 66.7.5
+      '@unocss/reset':
+        specifier: ^66.7.5
+        version: 66.7.5
       '@unocss/svelte-scoped':
         specifier: ^66.7.5
         version: 66.7.5

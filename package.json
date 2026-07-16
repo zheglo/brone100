@@ -28,6 +28,7 @@
 		"@types/node": "^24",
 		"@unocss/preset-rem-to-px": "^66.7.5",
 		"@unocss/preset-wind3": "^66.7.5",
+		"@unocss/reset": "^66.7.5",
 		"@unocss/svelte-scoped": "^66.7.5",
 		"better-auth": "~1.4.21",
 		"drizzle-kit": "^0.31.10",
