@@ -1,5 +1,5 @@
 import { defineConfig, presetWind3 } from 'unocss';
-import presetRemToPx from '@unocss/preset-rem-to-px'
+import presetRemToPx from '@unocss/preset-rem-to-px';
 
 export default defineConfig({
   presets: [
