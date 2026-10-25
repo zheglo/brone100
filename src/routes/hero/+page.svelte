@@ -1,11 +1,5 @@
 <script lang="ts">
 import type { Attachment } from 'svelte/attachments'
-import Onimation from '~components/animateO/Onimation.svelte'
-import B from '~components/animateO/B.svelte'
-import R from '~components/animateO/R.svelte'
-import N from '~components/animateO/N.svelte'
-import Ia from '~components/animateO/Ia.svelte'
-import Sto from '~components/animateO/Sto.svelte'
 import probroneWebm from '~assets/hero/punkvideo/probrone.webm'
 import probroneMp4 from '~assets/hero/punkvideo/probrone.mp4'
 </script>
